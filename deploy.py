@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-  return "<h1>Deploying simple Flask to Heroku</h1>"
+  return "<h1>Deploying a simple Flask to Heroku</h1>"
 
 if __name__ == "__main__":
   app.run(debug=True)
